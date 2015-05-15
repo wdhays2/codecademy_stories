@@ -13,21 +13,9 @@
 //= require jquery
 //= require jquery_ujs
 //= require turbolinks
+//= require jquery.sidr
 //= require_tree .
-<!DOCTYPE html>
-<html>
-  <head>
-    <!-- Your stuff -->
- <"http://s3.amazonaws.com/codecademy-content/projects/z2d/stories/menu-black.svg">
-    <!-- Include Sidr bundled CSS theme -->
-    <link rel="stylesheet" href="javascripts/sidr/stylesheets/jquery.sidr.dark.css">
-  </head>
-  <body>
-    <!-- Your stuff -->
-< "http://s3.amazonaws.com/codecademy-content/projects/z2d/stories/close-black.svg">
-    <!-- Include jQuery -->
-    <script src="javascripts/jquery.js"></script>
-    <!-- Include the Sidr JS -->
-    <script src="javascripts/sidr/jquery.sidr.min.js"></script>
-  </body>
-</html>
+
+$(function() {
+  $('#simple-menu').sidr();
+});

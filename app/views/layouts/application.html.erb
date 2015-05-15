@@ -12,8 +12,8 @@
   
 </head>
 <body>
-
-<%= yield %>
-<%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
+  <%= render 'menus' %>
+  <%= yield %>
+  <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
 </body>
 </html>
