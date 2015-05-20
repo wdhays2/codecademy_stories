@@ -1,3 +1,52 @@
 // Place all the styles related to the Pages controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
+	
+.jumbotron {
+  background-image:url('http://www.indiaonrent.com/forwards/c/cool-mountain-pic/res/qk2tux.jpg');
+  height: 700px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-top: -20;
+	}
+	
+.mountains h2 {
+margin: 125px 0px 0px 600px;
+font-size: 44px;
+color: #ffffff;
+	}
+	
+.mountains .container {
+		margin-left: 750px;
+	}
+	
+body {
+	margin: 0px;
+}
+	
+body p {
+	font-size: 36px;
+	text-align: center;
+}
+
+.beach {
+	background-image: url('http://www.pageresource.com/wallpapers/wallpaper/cool-tunnels-beach-beaches-nature-widescreen.jpg');
+	height: 700px;
+  background-repeat: no-repeat;
+  background-size: cover;
+	}
+
+#footer {
+	clear: both;
+	background-color: lightblue;
+	border: 1px solid black;
+	border-radius: 5px;
+	text-align: center;
+	}
+
+.volcano {
+	background-image: url('http://www.hdimagewallpaper.com/wp-content/uploads/2015/02/Volcano-Images-11-HD-Images-Wallpapers.jpg');
+	height: 700px;
+  background-repeat: no-repeat;
+  background-size: cover;
+	}
