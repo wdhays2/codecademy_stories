@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  
+  <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+  <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
+</head>
+<body>
+	<div class="signup">
+		<div class="container">
+		<h1>Welcome to the signup page</h1>
+		<%= form_for @signup do |f| %>
+		  <%= f.label :firstname %>:
+		  <%= f.text_field :firstname %><br />
+		
+		  <%= f.label :email %>:
+		  <%= f.text_field :email %><br />
+		
+		  <%= f.submit %>
+		<% end %>
+		</div>
+	</div>
+</body>
+</html>	
